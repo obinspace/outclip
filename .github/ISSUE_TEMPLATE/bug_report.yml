@@ -1,0 +1,33 @@
+name: Bug report
+description: Something does not work as expected
+labels: [bug]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page address
+      description: The web page you tried to clip (if the problem is page-specific)
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, what happened instead?
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version
+      placeholder: e.g. Chrome 141
+    validations:
+      required: true
+  - type: input
+    id: outline
+    attributes:
+      label: Outline version
+      placeholder: e.g. 1.10.1 (self-hosted)
+  - type: input
+    id: outclip
+    attributes:
+      label: OutClip version
+      placeholder: Shown in the OutClip settings
