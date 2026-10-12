@@ -2,7 +2,7 @@
 
 Save the page you are reading into your own self-hosted [Outline](https://www.getoutline.com) — as clean Markdown, with the full text and images.
 
-**[Get it on the Chrome Web Store](https://chromewebstore.google.com/detail/picjbegjckaabibddfilpolfhcekmjae)** · Firefox: in review · [obin.space/outclip](https://obin.space/outclip)
+**[Get it on the Chrome Web Store](https://chromewebstore.google.com/detail/picjbegjckaabibddfilpolfhcekmjae)** · **[Get it for Firefox](https://addons.mozilla.org/addon/outclip-for-outline/)** · [obin.space/outclip](https://obin.space/outclip)
 
 > **About this repository:** The source code of OutClip is not public. This repository is for documentation, release notes and bug reports.
 
