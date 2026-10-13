@@ -1,6 +1,6 @@
-# OutClip for Outline
+# OutClip – Web Clipper for Outline
 
-Save the page you are reading into your own self-hosted [Outline](https://www.getoutline.com) — as clean Markdown, with the full text and images.
+Web clipper for your self-hosted [Outline](https://www.getoutline.com) wiki. Save any page as clean Markdown, full text and images. Nothing goes anywhere else.
 
 **[Get it on the Chrome Web Store](https://chromewebstore.google.com/detail/picjbegjckaabibddfilpolfhcekmjae)** · **[Get it for Firefox](https://addons.mozilla.org/addon/outclip-for-outline/)** · [obin.space/outclip](https://obin.space/outclip)
 
