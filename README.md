@@ -38,7 +38,7 @@ Buy it at [obin.space/outclip](https://obin.space/outclip).
 
 ## Requirements
 
-Your own Outline instance and a personal API token (Outline → Settings → API Keys). Tested with self-hosted Outline 1.7.1 and 1.10.1.
+Your own Outline instance and a personal API token (Outline → Settings → API Keys). Tested with self-hosted Outline 1.7.1, 1.10.1 and 1.12.0.
 
 ## Guide
 
