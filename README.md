@@ -2,7 +2,7 @@
 
 Web clipper for your self-hosted [Outline](https://www.getoutline.com) wiki. Save any page as clean Markdown, full text and images. Nothing goes anywhere else.
 
-**[Get it on the Chrome Web Store](https://chromewebstore.google.com/detail/picjbegjckaabibddfilpolfhcekmjae)** · **[Get it for Firefox](https://addons.mozilla.org/addon/outclip-for-outline/)** · [obin.space/outclip](https://obin.space/outclip)
+**[Get it on the Chrome Web Store](https://chromewebstore.google.com/detail/picjbegjckaabibddfilpolfhcekmjae?utm_source=github)** · **[Get it for Firefox](https://addons.mozilla.org/addon/outclip-for-outline/)** · [obin.space/outclip](https://obin.space/outclip)
 
 > **About this repository:** The source code of OutClip is not public. This repository is for documentation, release notes and bug reports.
 
@@ -29,7 +29,7 @@ To the Outline address you entered yourself. Nowhere else. No vendor server, no 
 
 The clipper is free, with no limits on clipping. A one-time licence (**7.99 €**, no subscription, updates included) adds:
 
-- a full-page screenshot attached to the document
+- a scrolled picture of the page (up to twenty screen heights) attached to the document
 - recipe documents (ingredients as a checklist, numbered steps)
 - multiple Outline servers
 - rules per site
