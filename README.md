@@ -1,6 +1,6 @@
 # OutClip – Web Clipper for Outline
 
-Web clipper for your self-hosted [Outline](https://www.getoutline.com) wiki. Save any page as clean Markdown, full text and images. Nothing goes anywhere else.
+Web clipper for your self-hosted [Outline](https://www.getoutline.com) wiki. Save any page as clean Markdown, full text and images. Pages go only to your server.
 
 **[Get it on the Chrome Web Store](https://chromewebstore.google.com/detail/picjbegjckaabibddfilpolfhcekmjae?utm_source=github)** · **[Get it for Firefox](https://addons.mozilla.org/addon/outclip-for-outline/)** · [obin.space/outclip](https://obin.space/outclip)
 
@@ -23,11 +23,13 @@ Web clipper for your self-hosted [Outline](https://www.getoutline.com) wiki. Sav
 
 ## Where your data goes
 
-To the Outline address you entered yourself. Nowhere else. No vendor server, no analytics, no telemetry. OutClip asks for access to your Outline address only, not to the web at large, and it asks when you connect, not when you install.
+To the Outline address you entered yourself, and only over HTTPS (plain `http://` is accepted only for `localhost`, `127.0.0.1` and `::1`). Nowhere else. No vendor server, no analytics, no telemetry. OutClip asks for access to your Outline address only, not to the web at large, and it asks when you connect, not when you install.
+
+The one exception is a licence: if you enter a key, OutClip sends the key, an activation id and a device name to [Polar](https://polar.sh) (`api.polar.sh`), the seller, to check it. By default that happens every three days; in the options you can turn the automatic check off, and then it happens only when you press “Check again”. In Firefox you are asked first. No page content ever goes to Polar.
 
 ## Price
 
-The clipper is free, with no limits on clipping. A one-time licence (**7.99 €**, no subscription, updates included) adds:
+The clipper is free, with no limits on clipping. A one-time licence (**€7.99 / $8.99**, no subscription, updates included) adds:
 
 - a scrolled picture of the page (up to twenty screen heights) attached to the document
 - recipe documents (ingredients as a checklist, numbered steps)
@@ -38,7 +40,7 @@ Buy it at [obin.space/outclip](https://obin.space/outclip).
 
 ## Requirements
 
-Your own Outline instance and a personal API token (Outline → Settings → API Keys). Tested with self-hosted Outline 1.7.1, 1.10.1 and 1.12.0.
+Your own Outline instance, reachable over HTTPS (or on localhost), and a personal API token (Outline → Settings → API Keys). Tested with self-hosted Outline 1.7.1, 1.10.1 and 1.12.0.
 
 ## Guide
 
